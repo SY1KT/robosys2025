@@ -1,5 +1,7 @@
 
 # SPDX-FileCopyrightText: 2025 Sugano
+# SPDX-License-Identifier: BSD-3-Clause
+
 import sys
 
 ans = 0.0
