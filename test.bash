@@ -1,5 +1,5 @@
-#!/bin/bash 
-# SPDX-FileCopyrightText: 2025 Ryuichi Ueda
+#!/bin/bash
+# SPDX-FileCopyrightText: 2025 Tatsunori Kanno
 # SPDX-License-Identifier: BSD-3-Clause
 
 ng () {
