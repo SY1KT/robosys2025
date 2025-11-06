@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-# SPDX-FileCopyrightText: 2025 Sugano
+# SPDX-FileCopyrightText: 2025 Kanno Tatsunori
 # SPDX-License-Identifier: BSD-3-Clause
 
 import sys
@@ -9,3 +9,4 @@ for line in sys.stdin:
     ans += float(line)
 
 print(ans)
+
