@@ -1,14 +1,18 @@
-#!/bin/bash
+#!/bin/bash 
 # SPDX-FileCopyrightText: 2025 Ryuichi Ueda
+# SPDX-License-Identifier: BSD-3-Clause
+
 ng () {
-       echo ${1}行目が違うよ #$1はngの1番目の引数
-       res=1
+        echo ${1}行目が違うよ #$1はngの1番目の引数
+        res=1
 }
 
 res=0
-a=山田
-[ "$a" = 上田 ] || ng "$LINENO" #LINENOは、この行の行番号の入る変数
-[ "$a" = 山田 ] || ng "$LINENO"
 
+out=$(seq 5 | ./plus)
+[ "${out}" = 15 ] || ng "$LINENO"
+
+[ "${res}" = 0 ] && echo OK
 exit $res
+
 
