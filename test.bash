@@ -2,11 +2,11 @@
 # SPDX-FileCopyrightText: 2025 Ryuichi Ueda
 # SPDX-License-Identifier: BSD-3-Clause
 
-a=山田
-[ "$a" = 上田 ]
-echo $?
+ng () {
+       echo ${1}行目が違うよ
+}
 
-[ "$a" = 山田 ]
-echo $?
+ng 123
+
 
 
