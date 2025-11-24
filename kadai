@@ -1,0 +1,6 @@
+import random
+
+for line in iter(input, ""):
+   
+    dice = random.randint(1,6)
+    print(dice)
