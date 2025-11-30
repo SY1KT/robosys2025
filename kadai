@@ -1,3 +1,7 @@
+#!/usr/bin/python3
+# SPDX-FileCopyrightText: 2025 Kanno Tatsunori
+# SPDX-License-Identifier: BSD-3-Clause
+
 import random
 
 for line in iter(input, ""):
