@@ -2,9 +2,12 @@
 # SPDX-FileCopyrightText: 2025 Kanno Tatsunori
 # SPDX-License-Identifier: BSD-3-Clause
 
-import random
+import sys
 
-for line in iter(input, ""):
-   
-    dice = random.randint(1,6)
-    print(dice)
+count = 0
+
+for line in sys.stdin:
+    words = line.split()
+    count += len(words)
+
+print(count)
