@@ -3,12 +3,12 @@
 標準入力から何か文字を読み込んで、1から6の数字を出力する.
 
 ## 実行方法
-'''bash
-$git clone <URL>
-$./kadai
+```bash  
+$git clone <URL>  
+$./kadai  
 a  
-<Enterキー入力>
-'''
+<Enterキー入力>  
+```
 
 ## 終了方法
 実行後、Enterキーのみ入力  
