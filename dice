@@ -1,0 +1,11 @@
+#!/usr/bin/python3
+# SPDX-FileCopyrightText: 2025 Kanno Tatsunori
+# SPDX-License-Identifier: BSD-3-Clause
+
+import random
+
+n,m = map(int, input().split())
+
+for i in range(m):
+    rolls = [random.randint(1,6) for _ in range(n)]
+    print(f"{i+1}回目:", rolls, "合計:", sum(rolls))
