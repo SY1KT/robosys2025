@@ -4,7 +4,7 @@
 
 import random
 
-n,m = map(int, input("サイコロの個数nと振る回数mを入力:").split())
+n,m = map(int, input().split())
 
 for i in range(m):
     rolls = [random.randint(1,6) for _ in range(n)]
