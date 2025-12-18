@@ -69,4 +69,3 @@ done
 
 #結果
 echo "$ERROR_COUNT"
-
