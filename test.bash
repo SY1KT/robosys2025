@@ -3,7 +3,6 @@
 # SPDX-License-Identifier: BSD-3-Clause
 
 PROGRAM="dice"
-
 ERROR_COUNT=0
 
 #テストケース定義
