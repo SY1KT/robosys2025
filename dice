@@ -8,4 +8,4 @@ n,m = map(int, input().split())
 
 for i in range(m):
     rolls = [random.randint(1,6) for _ in range(n)]
-    print(f"{i+1}回目:", rolls, "合計:", sum(rolls))
+    print(f"{i+1}:", rolls, "sum:", sum(rolls))
