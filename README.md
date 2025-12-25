@@ -6,7 +6,7 @@
 ```bash  
 $ git clone <git@github.com:SY1KT/robosys2025.git> 
 $ cd robosys2025 
-$ ./kadai    
+$ ./dice    
 ```
 
 ## 出力例
