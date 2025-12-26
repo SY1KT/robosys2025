@@ -4,7 +4,7 @@
 
 ## 実行方法
 ```bash  
-$ git clone <https://github.com/SY1KT/robosys2025.git> 
+$ git clone https://github.com/SY1KT/robosys2025.git 
 $ cd robosys2025 
 $ ./dice    
 ```
